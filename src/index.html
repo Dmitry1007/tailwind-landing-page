@@ -6,9 +6,23 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-2xl font-bold underline">Landing Page</h1>
-    <div class="p-4 pt-2">
-      <p class="text-xl">Paragraph Text Goes here man</p>
-    </div>
+    <!-- Navigation -->
+    <nav class="container relative mx-auto p-6">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="../img/logo.svg" alt="" />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class=" hover:text-darkGreyishBlue">Features</a>
+          <a href="#" class=" hover:text-darkGreyishBlue">Pricing</a>
+          <a href="#" class=" hover:text-darkGreyishBlue">Docs</a>
+          <a href="#" class=" hover:text-darkGreyishBlue">About</a>
+      </div>
+      <!-- Menu Button -->
+      <a href="" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+    </nav>
   </body>
 </html>
